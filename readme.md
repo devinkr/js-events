@@ -470,7 +470,7 @@ just one event listener.
 ## You Do: DOTS: The Game
 
 Visit this
-[repository](https://git.generalassemb.ly/dc-wdi-fundamentals/event-listener-demo)
+[repository](https://git.generalassemb.ly/seir-129/event-listener-demo)
 and follow the instructions.
 
 ## Additional Resources
