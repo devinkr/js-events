@@ -317,14 +317,11 @@ var redButton = document.querySelector(".red");
 
 redButton.addEventListener("click", handleClickEvent);
 
-function handleClickEvent(evt) {
+function handleClickEvent(event) {
   console.log("I was clicked!");
-  console.log(evt);
+  console.log(event);
 }
 ```
-
-> The `evt` stands for `event`. The reason we're not actually using `event` is
-> that it's a "reserved word" in Javascript, like "if" and "return".
 
 **What do you see in the console when you click the link?**
 
