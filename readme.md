@@ -72,7 +72,7 @@ button.addEventListener("click", function() {
 
 ### Turn & Talk (5 min)
 
-Turn to your neighbor or the people in your row and discuss what is happening in
+Turn to your neighbor or the people in your breakout group and discuss what is happening in
 the code snippet above.
 
 > We'll work through each part of the above snippet in detail as we work through
