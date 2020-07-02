@@ -380,14 +380,6 @@ that all perform the same task but with different data. For example,
 Let's revisit the color switcher example together and find a way to put have
 just one event listener.
 
-## Break
-
-## You Do: DOTS: The Game
-
-Visit this
-[repository](https://git.generalassemb.ly/seir-622/event-listener-demo)
-and follow the instructions.
-
 ## Additional Resources
 
 - [Build a Drum Kit in Vanilla JS](https://www.youtube.com/watch?v=VuN8qwZoego)
