@@ -291,7 +291,7 @@ functions' process or work.
 > 5 minutes exercise. 5 minutes review.
 
 Go to this
-[repository](https://git.generalassemb.ly/seir-323/event-listener-practice)
+[repository](https://git.generalassemb.ly/seir-622/event-listener-practice)
 and follow the instructions.
 
 ## Break
@@ -304,7 +304,7 @@ We will build on the Color Scheme Switcher as we work through the following
 sections of the lesson.
 
 Visit this
-[repository](https://git.generalassemb.ly/seir-323/color-scheme-switcher)
+[repository](https://git.generalassemb.ly/seir-622/color-scheme-switcher)
 and follow along!
 
 ## The Event Object
@@ -371,7 +371,7 @@ function handleClickEvent(evt) {
 ## Event Propagation
 
 Clone down
-[this repository](https://git.generalassemb.ly/seir-323/js-event-propagation-practice)
+[this repository](https://git.generalassemb.ly/seir-622/js-event-propagation-practice)
 for a short exercise.
 
 The site in the exercise above has 100 buttons. Your task is to make it so an
@@ -450,7 +450,7 @@ an alert is created with the text "You clicked a button".
 </details>
 
 **Let's refactor the
-[`js-event-propagation`](https://git.generalassemb.ly/seir-323/js-event-propagation-practice)
+[`js-event-propagation`](https://git.generalassemb.ly/seir-622/js-event-propagation-practice)
 exercise from above to use event propagation.**
 
 This technique is really helpful when working with a list of links or buttons
@@ -467,7 +467,7 @@ just one event listener.
 ## You Do: DOTS: The Game
 
 Visit this
-[repository](https://git.generalassemb.ly/seir-323/event-listener-demo)
+[repository](https://git.generalassemb.ly/seir-622/event-listener-demo)
 and follow the instructions.
 
 ## Additional Resources
