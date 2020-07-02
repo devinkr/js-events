@@ -231,7 +231,7 @@ Comment out the code you wrote in the Color Scheme Switcher exercise and paste
 in the following:
 
 ```js
-var redButton = document.querySelector(".red");
+const redButton = document.querySelector(".red");
 
 redButton.addEventListener("click", handleClickEvent);
 
@@ -246,7 +246,7 @@ function handleClickEvent(event) {
 ### Turn & Talk: Explore The Event Object (5 min)
 
 With your partner, spend three minutes clicking the button and exploring what
-properties the event (or `evt`) object contains. Look for:
+properties the event (or `event`) object contains. Look for:
 
 - A way to figure out what element was clicked on.
 - A way to tell the position of the mouse when it was clicked.
@@ -273,14 +273,14 @@ object: `preventDefault()`.
   <summary> Answer </summary>
 
 ```js
-var button = document.querySelector(".js-button");
+const button = document.querySelector(".js-button");
 
 button.addEventListener("click", handleClickEvent);
 
-function handleClickEvent(evt) {
-  evt.preventDefault();
+function handleClickEvent(event) {
+  event.preventDefault();
   console.log("I was clicked!");
-  console.log(evt);
+  console.log(event);
 }
 ```
 
@@ -302,8 +302,8 @@ way to accomplish the task at hand! Doing it this way looks like this:
 const buttons = document.querySelectorAll(".js-button");
 
 for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", function(evt) {
-    evt.preventDefault();
+  buttons[i].addEventListener("click", function(event) {
+    event.preventDefault();
     alert("You clicked a button!");
   });
 }
@@ -345,10 +345,10 @@ a lot of duplicate event listeners, we can apply 1 event to the parent element:
 ```js
 const controlPanel = document.querySelector(".js-control-panel");
 
-controlPanel.addEventListener("click", function(evt) {
-  evt.preventDefault();
+controlPanel.addEventListener("click", function(event) {
+  eventt.preventDefault();
 
-  if (evt.target.tagName === "A") {
+  if (event.target.tagName === "A") {
     alert("You clicked a button!");
   }
 });
