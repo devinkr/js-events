@@ -288,11 +288,7 @@ function handleClickEvent(event) {
 
 ## Event Propagation
 
-Clone down
-[this repository](../../../js-event-propagation-practice)
-for a short exercise.
-
-The site in the exercise above has 100 buttons. Your task is to make it so an
+Imagine that we have 100 buttons and our task is to make it so an
 alert pops up when the user clicks on any of the buttons.
 
 Your first thought might be to do this with a `for` loop - it's certainly one
@@ -338,8 +334,7 @@ and from the event target, through it's parent elements. So, you can treat a
 click on an element as a click on it's parent, grandparent, great-grandparent,
 etc.
 
-This is useful for us when working with adding events to a lot of elements (like
-in our exercise). Rather than apply an event listener to every element, and have
+This is useful for us when working with adding events to a lot of elements. Rather than apply an event listener to every element, and have
 a lot of duplicate event listeners, we can apply 1 event to the parent element:
 
 ```js
@@ -366,10 +361,6 @@ event target to see if it is a link (i.e. is an <code>a</code> tag). If it is,
 an alert is created with the text "You clicked a button".
 
 </details>
-
-**Let's refactor the
-[`js-event-propagation`](../../../js-event-propagation-practice)
-exercise from above to use event propagation.**
 
 This technique is really helpful when working with a list of links or buttons
 that all perform the same task but with different data. For example,
